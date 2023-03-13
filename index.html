@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>Design Life Kids: the front-end project was created by DL Academy's student</title>
+    <meta name="description" content="Special products - from fashion to furniture for kids and adults - are curated by unique designers. Advantageous terms for the purchase and delivery">
+    <meta name="author" content="Julia Oreshkina">
+    
+    <script>
+      var docElement = document.documentElement;
+      docElement.className = docElement.className.replace(/\bno-js\b/, '') + ' js';
+    </script>
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container header">
+    <a class="header__link" href="/index.html">
+        <img class="header__logo" src="./img/icons/dlk-logo.svg" alt="DLK logo">
+    </a>
+    <nav class="header__menu">
+        <ul class="header__menu__list">
+            <li class="menu__item">
+    <a class="menu__item__link" href="/catalog.html" target="_blank">catalog</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="#" target="_blank">about us</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="/blog.html" target="_blank">blog</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="/animation.html" target="_blank">animation</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="/svg.html" target="_blank">svg</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="/grid.html" target="_blank">grid</a>
+</li>
+            <li class="menu__item">
+    <a class="menu__item__link" href="/bootstrap.html" target="_blank">bootstrap</a>
+</li>
+        </ul>
+    </nav>
+    <button class="header__menu-btn menu-btn menu-btn--open">menu</button>
+    <a class="header__contact-link--media" href="/contact.html">
+        <img class="header__contact-icon" src="./img/icons/search.svg" alt="contact page icon" width="18" height="18">
+    </a>
+    <a class="header__contact-link icon-search" href="/contact.html">CONTACT US</a>  
+</header>
+<div class="header__burger-wrapper visually-hidden">
+    <div class="header__burger">
+        <div class="header__burger-inner">
+            <a class="header__link" href="/index.html">
+                <img class="header__logo" src="./img/icons/dlk-logo.svg" alt="DLK logo">
+            </a>
+            <button class="header__menu-btn--burger menu-btn menu-btn--close">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.707105 0L0 0.707105L7.07111 7.77821L4.6869e-05 14.8493L0.707151 15.5564L7.77821 8.48532L14.8492 15.5563L15.5563 14.8492L8.48532 7.77821L15.5563 0.707178L14.8492 7.33696e-05L7.77821 7.07111L0.707105 0Z" fill="#1E0606"/>
+                </svg>
+            </button>
+            <a class="header__contact-link--media menu-btn" href="/contact.html">
+                <img class="header__contact-icon" src="./img/icons/search.svg" alt="contact page icon" width="18" height="18">
+            </a>
+        </div>
+        <nav class="header__burger-menu">
+            <ul class="header__burger-list">
+                <li class="menu__item">
+    <a class="menu__item__link" href="/catalog.html" target="_blank">CATALOG</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="#" target="_blank">ABOUT US</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/blog.html" target="_blank">BLOG</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/animation.html" target="_blank">ANIMATION</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/svg.html" target="_blank">SVG</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/grid.html" target="_blank">GRID</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/bootstrap.html" target="_blank">bootstrap</a>
+</li>
+                <li class="menu__item">
+    <a class="menu__item__link" href="/contact.html" target="_blank">CONTACT US</a>
+</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+    <main class="banner__wrapper container">
+    <section class="banner">
+        <div class="banner__inner">
+            <span class="banner__slide-number">01</span>
+            <ul class="banner__switch">
+                <li><button class="banner__switch-btn banner__switch-btn--active" aria-label="slide-one" type="button"></button></li>
+                <li><button class="banner__switch-btn" aria-label="slide-two" type="button"></button></li>
+                <li><button class="banner__switch-btn" aria-label="slide-three" type="button"></button></li>
+                <li><button class="banner__switch-btn" aria-label="slide-four" type="button"></button></li>
+            </ul>
+        </div>
+        <div class="banner__slide">
+            <h1 class="banner__title">THE OOH NOO COLLECTION</h1>
+            <p class="banner__subtitle">Designed in Slovenia</p>
+            <button class="button banner__btn" type="button" tabindex="0">explore now</button>
+        </div>
+        <picture>
+            <source srcset="./img/monster-tablet.png" media="(min-width: 426px) and (max-width: 880px)">
+            <source srcset="./img/monster-mobile.png" media="(max-width: 425px)">
+            <img class="banner__img" src="./img/monster.png" alt="monster">
+        </picture>
+    </section>
+    <p class="banner__delivery-info">FREE (CONTIENENTAL) USA SHIPPING ON ALL ORDERS OFF $100 USD OR MORE!</p>
+</main>
+    <section class="products container">
+        <h2 class="products__title">Category Products</h2>
+        <ul class="products__list">
+            <li class="products-card card_1 card__main-size">
+    <img class="products-card__img @@imgSize" src="./img/apparel-kids.jpg" alt="apparel kids">
+    <a class="products-card__link @@linkStyle" href="#">apparel kids</a>
+</li>
+            <li class="products-card card_2 card__main-size">
+    <img class="products-card__img @@imgSize" src="./img/sock.png" alt="holiday shop">
+    <a class="products-card__link @@linkStyle" href="#">holiday shop</a>
+</li>
+            <li class="products-card card_3 card__main-size">
+    <img class="products-card__img @@imgSize" src="./img/toy.png" alt="toys">
+    <a class="products-card__link @@linkStyle" href="./toys.html">toys</a>
+</li>
+            <li class="products-card card_4 card__main-size">
+    <img class="products-card__img @@imgSize" src="./img/drowing.png" alt="accessories">
+    <a class="products-card__link @@linkStyle" href="#">accessories</a>
+</li>
+        </ul>
+        <div class="products__nav">
+            <nav class="products__nav-inner" aria-label="list of product categories">
+                <button type="button" class="button-paginator" aria-label="scroll forward">
+                    <svg class="btn-vector" width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-width="4"/>
+                    </svg>
+                </button>
+                <button type="button" class="button-paginator" aria-label="scroll back">
+                    <svg class="btn-vector" width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-width="4"/>
+                    </svg>
+                </button>           
+            </nav>
+            <p class="products__info">Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+        </div>       
+    </section>
+    <section class="container services">
+        <h2 class="visually-hidden">Services</h2>
+        <picture>
+            <source srcset="./img/photo-mobile.avif, ./img/photo-mobile-2x.avif 2x" media="(max-width: 425px)">
+            <source srcset="./img/photo-mobile.jpg, ./img/photo-mobile-2x.jpg 2x" media="(max-width: 425px)">
+            <source srcset="./img/photo-tablet.avif, ./img/photo-tablet-2x.avif 2x" media="(min-width: 426px) and (max-width: 768px)">
+            <source srcset="./img/photo-tablet.jpg, ./img/photo-tablet-2x.jpg 2x" media="(min-width: 426px) and (max-width: 768px)">
+            <source srcset="./img/photo.jpg, ./img/photo-2x.jpg 2x" media="(min-width: 769px)">
+            <img class="services__photo" src="./img/photo.jpg" alt="designer DLK">
+        </picture>
+        <div class="services__inner">
+            <h2 class="services__title">Delivery</h2>
+            <ul class="services__list">
+                <li class="services__item services__item--active">
+                    <a class="services__link services__link--open" href="#">Delivery</a>
+                </li>
+                <li class="services__item">
+                    <a class="services__link" href="#">Guarantee</a>
+                </li>
+                <li class="services__item">
+                    <a class="services__link" href="#">Credit</a>
+                </li>
+            </ul>
+            <div class="services__content">
+                <p class="services__delivery">Some days i feel like i've been working on dlk my entire life and 
+                    there are other days that i am completely shocked that four years
+                    have flown by. It's simply magical.</p>
+                <p class="services__delivery">What started as an outlet to deal  with the traumatic loss of my
+                    husband, dlk has now become a truly happy place for me and
+                    i have you and all of the beautiful designers that
+                    we work with to thank!</p>
+                <a class="link services__link-more" href="#">learn more</a>    
+            </div>
+        </div>
+    </section>
+    <section class="container partners">
+        <h2 class="visually-hidden">Partnes</h2>
+        <a class="partners__link" href="https://mail.ru/" target="_blank">
+    <img class="partners__logo" src="./img/icons/mail-logo.svg" alt="mail.ru group logo" width="193" height="60">
+</a>
+        <a class="partners__link" href="https://www.apple.com/" target="_blank">
+    <img class="partners__logo" src="./img/icons/apple-logo.svg" alt="apple logo" width="179" height="61">
+</a>
+        <a class="partners__link" href="https://eltex-co.com/" target="_blank">
+    <img class="partners__logo" src="./img/icons/eltex-logo.svg" alt="eltex logo" width="216" height="46">
+</a>
+        <a class="partners__link" href="https://www.owox.com/" target="_blank">
+    <img class="partners__logo" src="./img/icons/owox-logo.svg" alt="owox logo" width="211" height="40">
+</a>
+    </section>
+    <div class="container two-column">
+        <section class="about">
+            <h2 class="title">Design Life Kids</h2>
+            <a class="about__link" href="#">About Us</a>
+            <p class="about__info">Some days i feel like i've been working on dlk my entire life
+                and there are other days that i am completely shocked 
+                that four years have flown by. It's simply magical.</p>
+            <a class="link about__buy-link" href="/catalog.html">buy now</a> 
+        </section>
+        <article class="contacts">
+            <h2 class="title">Contacts</h2>
+            <p class="contacts__info">Some days i feel like i've been working on dlk my entire life
+                and there are other days that i am completely shocked 
+                that four years have flown by. It's simply magical.</p>
+            <div class="contacts__map"></div>
+            </article>
+    </div>
+    <footer class="footer">
+  <div class="container">
+      <div class="footer__free-columns">
+          <section class="footer__column">
+              <h2 class="visually-hidden">Navigation</h2>
+              <p class="footer__subtitle">Navigation</p>
+              <nav class="footer__list">
+                <ul class="footer__list-inner">
+                    <li class="footer__item">
+    <a class="footer__link" href="#">About Us</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="./blog.html">Blog</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Design Services</a>
+</li>
+                </ul>
+                <ul class="footer__list-inner">
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Featured On</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">2018 Holiday Catalog</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Shop By Designer</a>
+</li>
+                </ul>
+            </nav>
+          </section>
+          <section class="footer__column">
+              <h2 class="visually-hidden">Customer Information</h2>
+              <p class="footer__subtitle">Customer Information</p>
+              <nav class="footer__list">
+                <ul class="footer__list-inner">
+                    <li class="footer__item">
+    <a class="footer__link" href="./contact.html">Contact Us</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Sale Exclusions</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Shipping & Returns</a>
+</li>
+                </ul>
+                <ul class="footer__list-inner">
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Terms & Conditions</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Privacy Policy</a>
+</li>
+                    <li class="footer__item">
+    <a class="footer__link" href="#">Search</a>
+</li>
+                </ul>
+              </nav>
+          </section>
+          <section class="footer__column">
+              <h2 class="visually-hidden">Connect</h2>
+              <p class="footer__subtitle footer__subtitle--dist">Connect</p>
+              <form class="footer__form" method="post">
+                  <input class="footer__input" type="email" name="email" placeholder="Email">
+                  <button class="button connect__btn" type="submit" tabindex="0">Join</button>
+              </form>
+              <ul class="footer__connect-list">
+                  <li class="footer__connect-item"><a class="footer__connect-link icon-facebook" href="https://facebook.com/" aria-label="share on facebook"></a></li>
+                  <li class="footer__connect-item"><a class="footer__connect-link icon-twitter" href="https://twitter.com/" aria-label="share on twitter"></a></li>
+                  <li class="footer__connect-item"><a class="footer__connect-link icon-pinterest" href="https://pinterest.com/" aria-label="share on pinterest"></a></li>
+                  <li class="footer__connect-item"><a class="footer__connect-link icon-instagram" href="https://instagram.com/" aria-label="share on instagram"></a></li>
+              </ul>
+          </section>
+      </div>
+      <div class="footer__inner">
+      <section class="footer__column rating">
+          <h2 class="visually-hidden">Company Rating</h2>
+          <form class="rating__group">
+                <div class="rating__focus"></div>
+                <input class="rating__input" type="radio" name="star" id="star-5" value="5">
+                <label class="rating__star" aria-label="terribly" for="star-5"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-4" value="4">
+                <label class="rating__star" aria-label="below average" for="star-4"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-3" value="3">
+                <label class="rating__star" aria-label="acceptable" for="star-3"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-2" value="2">
+                <label class="rating__star" aria-label="good" for="star-2"></label>
+
+                <input class="rating__input" type="radio" name="star" id="star-1" value="1">
+                <label class="rating__star" aria-label="excellent" for="star-1"></label>
+                Company Rating
+          </form> 
+      </section>
+      <p class="footer__column footer__copyright">Copyright &copy; 2018 Dlk • Design Life Kids</p>
+      <a class="footer__column footer__designer" href="https://directline.digital/" target="_blank">Web Design — Direct Line Development</a>
+      </div>
+      </div>
+</footer>
+
+    <section class="popup hidden">
+    <h2 class="visually-hidden">Modal window</h2>
+    <div class="popup__overlay"></div>
+    <form class="form left" method="POST">
+    <div class="form__inner">
+        <label class="form__label" for="name">Name</label>
+        <input class="form__input" type="text" name="name" id="name" placeholder="Ivan Ivanov" tabindex="1" required>
+    </div>
+    <div class="column__two-input">
+        <div class="form__inner two-input">
+            <label class="form__label" for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone" tabindex="2" required>
+        </div>
+        <div class="form__inner two-input">
+            <label class="form__label" for="email">Email</label>
+            <input type="email" id="email" name="email" tabindex="3">
+        </div>
+    </div>
+    <div class="form__inner">
+        <label class="form__label" for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="8" tabindex="4"></textarea>
+    </div>
+    <div class="form__inner">
+        <input class="checkbox__input" type="checkbox" id="agreement" tabindex="5">
+        <label class="@@labelClass checkbox__label" for="agreement">
+            By clicking on the button, you consent to the processing of your personal data
+        </label>
+    </div>
+    <button class="button submit__btn" type="submit" tabindex="6">submit</button>
+</form>
+
+    <button class="popup__btn" type="button" aria-label="close modal window" tabindex="7">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="#F0F0F0" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.21902 14.6113C1.70029 15.1295 0.893368 15.1295 0.374636 14.6113C0.11527 14.3522 -6.13512e-07 14.0355 -5.9841e-07 13.69C-5.83308e-07 13.3445 0.11527 13.0278 0.374636 12.7687L5.64841 7.5L0.374637 2.23127C0.115271 1.97215 -7.23629e-08 1.65547 -5.72611e-08 1.30998C-4.21593e-08 0.964491 0.115271 0.647806 0.374637 0.388689C0.893369 -0.129545 1.70029 -0.129545 2.21902 0.388689L7.4928 5.65738L12.7666 0.38869C13.2853 -0.129545 14.0922 -0.129545 14.611 0.38869C15.1297 0.906924 15.1297 1.71304 14.611 2.23127L9.33718 7.5L14.611 12.7687C15.1297 13.287 15.1297 14.0931 14.611 14.6113C14.0922 15.1295 13.2853 15.1295 12.7666 14.6113L7.4928 9.34258L2.21902 14.6113Z" fill="#F0F0F0"/>
+        </svg>
+    </button>
+</section>
+    <script src="js/app.js" defer="defer"></script>
+    <script src="./js/index.js" defer="defer"></script>
+    <script src="./js/burger.js"></script>
+</body> 
+</html>
